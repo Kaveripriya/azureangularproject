@@ -57,6 +57,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'azure-angular'
-          slot-name: 'Production'
-          package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A8F6259C96CB47F1B390142DAE9FFAA0 }}
+          publish-profile: $
+          package: ./dist/simpleangularproject
