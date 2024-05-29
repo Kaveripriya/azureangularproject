@@ -23,11 +23,11 @@ export class CustomerComponent {
 
 constructor(private http: HttpClient )
   {
-    //this.getAllCustomer();
+    this.getAllCustomer();
  
   }
 
- /* getAllCustomer()
+  getAllCustomer()
   {
     
     this.http.get("https://springboot-app-azure.azurewebsites.net/api/v1/customer/getAllCustomer")
@@ -118,5 +118,5 @@ constructor(private http: HttpClient )
     });
  
   }
-  */
+  
  }
